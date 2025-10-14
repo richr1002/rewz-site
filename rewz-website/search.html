@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Search · REWZ</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css"/>
+</head>
+<body>
+  
+<nav class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html">
+      <img src="assets/img/logo.svg" alt="REWZ Logo" height="28"/>
+      <span>REWZ</span>
+    </a>
+    <div class="menu">
+      <a href="search.html">Search</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="partners.html">Partners</a>
+      <a href="about.html">About</a>
+      <a href="news.html">News</a>
+      <a class="cta secondary" href="#contact">Contact</a>
+      <a class="cta" href="#">Sign In</a>
+    </div>
+  </div>
+</nav>
+
+  
+<section class="section">
+  <div class="container">
+    <h2>Search</h2>
+    <p class="sub">Prototype (static). Enter an address to preview the zoning summary.</p>
+    <div class="card">
+      <form onsubmit="event.preventDefault();document.getElementById('result').style.display='block'">
+        <div style="display:flex;gap:12px;flex-wrap:wrap">
+          <input type="text" placeholder="33 Durant St, Stamford, CT" style="flex:1;min-width:260px;padding:12px 14px;border:1px solid #CBD5E1;border-radius:12px"/>
+          <button class="cta">Search</button>
+        </div>
+      </form>
+      <div id="result" style="display:none;margin-top:16px">
+        <div class="grid-2">
+          <div class="card">
+            <div class="sh">Zoning Summary</div>
+            <table class="table">
+              <tr><th>Zone</th><td>R-6 (example)</td></tr>
+              <tr><th>Uses</th><td>Single/Multi-family (per city code)</td></tr>
+              <tr><th>Max Height</th><td>35 ft (sample)</td></tr>
+              <tr><th>Setbacks</th><td>F:15', S:6', R:25' (sample)</td></tr>
+              <tr><th>Parking</th><td>1.5–2.0 / unit (sample)</td></tr>
+            </table>
+          </div>
+          <div class="card">
+            <div class="sh">What‑Can‑I‑Build</div>
+            <p class="small">Inputs (sample): Lot 7,000 sqft, FAR 0.5 → Max buildable ≈ 3,500 sqft.</p>
+            <ul>
+              <li>Option A: 2 units · 2BR each</li>
+              <li>Option B: 3 units · mix 1–2BR</li>
+            </ul>
+            <p class="small">*For illustration only. Verify with the local code.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  
+<footer class="footer">
+  <div class="container">
+    <div class="grid-3">
+      <div>
+        <div class="brand"><img src="assets/img/logo.svg" height="28"/><span>REWZ</span></div>
+        <p class="small" style="margin-top:10px;">Deep Navy · Fresh Green · Soft White</p>
+      </div>
+      <div>
+        <div class="sh">Product</div>
+        <ul>
+          <li><a href="search.html">Zoning Search</a></li>
+          <li><a href="dashboard.html">Developer Dashboard</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="news.html">Smart Feed</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="sh">Company</div>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="partners.html">Trusted Partners</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="small" style="margin-top:20px;">© 2025 The Real Estate Wizards. All rights reserved.</p>
+  </div>
+</footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
