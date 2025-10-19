@@ -1,0 +1,71 @@
+[
+  {
+    "address": "33 Durant St",
+    "city": "Stamford",
+    "state": "CT",
+    "owner": "Private Owner",
+    "zoning": "R-6",
+    "buildable_units": 4,
+    "max_height": "35 ft",
+    "setbacks": "Front 20ft, Side 10ft, Rear 15ft",
+    "lot_area": 4500,
+    "comps": [
+      {
+        "address": "12 Oak St",
+        "price": 650000
+      },
+      {
+        "address": "8 Pine Ave",
+        "price": 725000
+      }
+    ],
+    "taxes": "$6,200",
+    "notes": "Demo property. Verify latest Stamford R-6 ordinance before final recommendations."
+  },
+  {
+    "address": "155 East Elm St",
+    "city": "Greenwich",
+    "state": "CT",
+    "owner": "Greenwich Holdings LLC",
+    "zoning": "R6 (municipal guidance required)",
+    "buildable_units": 2,
+    "max_height": "30 ft",
+    "setbacks": "Front 25ft, Side 8ft, Rear 20ft",
+    "lot_area": 6000,
+    "comps": [
+      {
+        "address": "160 East Elm St",
+        "price": 1250000
+      },
+      {
+        "address": "22 Maple Ave",
+        "price": 980000
+      }
+    ],
+    "taxes": "$8,450",
+    "notes": "Example: verify minimum unit rules\u2014some R6 areas limit to duplexes."
+  },
+  {
+    "address": "35 Chapel St",
+    "city": "Norwalk",
+    "state": "CT",
+    "owner": "Norwalk Properties",
+    "zoning": "R-5",
+    "buildable_units": 3,
+    "max_height": "32 ft",
+    "setbacks": "Per municipal code",
+    "lot_area": 5200,
+    "comps": [
+      {
+        "address": "40 Chapel St",
+        "price": 540000
+      },
+      {
+        "address": "2 River Rd",
+        "price": 610000
+      }
+    ],
+    "taxes": "$5,100",
+    "notes": "Demo entry. Connect to Norwalk zoning/tax APIs for live data."
+  }
+]
